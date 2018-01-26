@@ -64,7 +64,7 @@ HbaseWriter 插件实现了从向Hbase中写取数据。在底层实现上，Hba
 
 ### 1.2 限制
 
-1、目前只支持源端为横表写入，不支持竖表（源端读出的为四元组: rowKey，family:qualifier，timestamp，value）模式的数据写入；本期目标主要是替换DataX2中的habsewriter，下次迭代考虑支持。
+1、目前只支持源端为横表写入，不支持竖表（源端读出的为四元组: rowKey，family:qualifier，timestamp，value）模式的数据写入；本期目标主要是替换DataX2中的hbasewriter，下次迭代考虑支持。
 
 2、目前不支持写入hbase前清空表数据，若需要清空数据请联系HBase PE
 
